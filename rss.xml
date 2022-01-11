@@ -1,457 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="9" meta:paragraph-count="183" meta:word-count="1361" meta:character-count="6598" meta:non-whitespace-character-count="6208"/><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator></office:meta>
- <office:settings>
-  <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">0</config:config-item>
-   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
-  </config:config-item-set>
-  <config:config-item-set config:name="ooo:configuration-settings">
-   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintFaxName" config:type="string"/>
-   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
-   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
-   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="RsidRoot" config:type="int">295186</config:config-item>
-   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
-   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
-   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string"/>
-   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
-   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
-   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
-   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
-   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">295186</config:config-item>
-   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
-   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
-  </config:config-item-set>
- </office:settings>
- <office:scripts>
-  <office:script script:language="ooo:Basic">
-   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-  </office:script>
- </office:scripts>
- <office:font-face-decls>
-  <style:font-face style:name="Noto Sans Devanagari1" svg:font-family="&apos;Noto Sans Devanagari&apos;" style:font-family-generic="swiss"/>
-  <style:font-face style:name="AppleSDGothicNeo-Regular" svg:font-family="AppleSDGothicNeo-Regular" style:font-family-generic="roman" style:font-pitch="variable"/>
-  <style:font-face style:name="HelveticaNeue" svg:font-family="HelveticaNeue" style:font-family-generic="roman" style:font-pitch="variable"/>
-  <style:font-face style:name="HelveticaNeue-Bold" svg:font-family="HelveticaNeue-Bold" style:font-family-generic="roman" style:font-pitch="variable"/>
-  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
-  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
-  <style:font-face style:name="Noto Sans Devanagari" svg:font-family="&apos;Noto Sans Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
- </office:font-face-decls>
- <office:styles>
-  <style:default-style style:family="graphic">
-   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
-    <style:tab-stops/>
-   </style:paragraph-properties>
-   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="DejaVu Sans" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
-  </style:default-style>
-  <style:default-style style:family="paragraph">
-   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.5in" style:writing-mode="page"/>
-   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="DejaVu Sans" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2"/>
-  </style:default-style>
-  <style:default-style style:family="table">
-   <style:table-properties table:border-model="collapsing"/>
-  </style:default-style>
-  <style:default-style style:family="table-row">
-   <style:table-row-properties fo:keep-together="auto"/>
-  </style:default-style>
-  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
-  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
-   <style:paragraph-properties fo:margin-top="0.1665in" fo:margin-bottom="0.0835in" loext:contextual-spacing="false" fo:keep-with-next="always"/>
-   <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="DejaVu Sans" style:font-family-asian="&apos;DejaVu Sans&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Noto Sans Devanagari" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
-  </style:style>
-  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0972in" loext:contextual-spacing="false" fo:line-height="115%"/>
-  </style:style>
-  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
-   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Noto Sans Devanagari1" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss"/>
-  </style:style>
-  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
-   <style:paragraph-properties fo:margin-top="0.0835in" fo:margin-bottom="0.0835in" loext:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Noto Sans Devanagari1" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss" style:font-size-complex="12pt" style:font-style-complex="italic"/>
-  </style:style>
-  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
-   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
-   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Noto Sans Devanagari1" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss"/>
-  </style:style>
-  <text:outline-style style:name="Outline">
-   <text:outline-level-style text:level="1" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="2" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="3" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="4" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="5" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="6" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="7" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="8" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="9" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="10" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-  </text:outline-style>
-  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
-  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
-  <text:linenumbering-configuration text:number-lines="false" text:offset="0.1965in" style:num-format="1" text:number-position="left" text:increment="5"/>
-  <style:default-page-layout>
-   <style:page-layout-properties style:layout-grid-standard-mode="true"/>
-  </style:default-page-layout>
- </office:styles>
- <office:automatic-styles>
-  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="Standard">
-   <style:paragraph-properties style:page-number="auto"/>
-  </style:style>
-  <style:style style:name="T1" style:family="text">
-   <style:text-properties fo:color="#535353" style:text-outline="false" style:font-name="HelveticaNeue" fo:font-size="14pt" fo:letter-spacing="normal" style:letter-kerning="false" style:font-size-asian="14pt"/>
-  </style:style>
-  <style:style style:name="T2" style:family="text">
-   <style:text-properties fo:color="#535353" style:text-outline="false" style:font-name="HelveticaNeue" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-weight="normal" style:letter-kerning="false" style:font-size-asian="14pt" style:font-weight-asian="normal"/>
-  </style:style>
-  <style:style style:name="T3" style:family="text">
-   <style:text-properties fo:color="#535353" style:text-outline="false" style:font-name="AppleSDGothicNeo-Regular" fo:font-size="14pt" fo:letter-spacing="normal" style:letter-kerning="false" style:font-size-asian="14pt"/>
-  </style:style>
-  <style:style style:name="T4" style:family="text">
-   <style:text-properties fo:color="#535353" style:text-outline="false" style:font-name="AppleSDGothicNeo-Regular" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-weight="normal" style:letter-kerning="false" style:font-size-asian="14pt" style:font-weight-asian="normal"/>
-  </style:style>
-  <style:style style:name="T5" style:family="text">
-   <style:text-properties fo:color="#128b02" style:text-outline="false" style:font-name="HelveticaNeue" fo:font-size="14pt" fo:letter-spacing="normal" style:letter-kerning="false" style:font-size-asian="14pt"/>
-  </style:style>
-  <style:style style:name="T6" style:family="text">
-   <style:text-properties fo:color="#128b02" style:text-outline="false" style:font-name="HelveticaNeue" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-weight="normal" style:letter-kerning="false" style:font-size-asian="14pt" style:font-weight-asian="normal"/>
-  </style:style>
-  <style:style style:name="T7" style:family="text">
-   <style:text-properties fo:color="#128b02" style:text-outline="false" style:font-name="AppleSDGothicNeo-Regular" fo:font-size="14pt" fo:letter-spacing="normal" style:letter-kerning="false" style:font-size-asian="14pt"/>
-  </style:style>
-  <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:color="#128b02" style:text-outline="false" style:font-name="AppleSDGothicNeo-Regular" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-weight="normal" style:letter-kerning="false" style:font-size-asian="14pt" style:font-weight-asian="normal"/>
-  </style:style>
-  <style:style style:name="T9" style:family="text">
-   <style:text-properties fo:color="#094ec0" style:text-outline="false" style:font-name="HelveticaNeue" fo:font-size="14pt" fo:letter-spacing="normal" style:letter-kerning="false" style:font-size-asian="14pt"/>
-  </style:style>
-  <style:style style:name="T10" style:family="text">
-   <style:text-properties fo:color="#094ec0" style:text-outline="false" style:font-name="HelveticaNeue" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-weight="normal" style:letter-kerning="false" style:font-size-asian="14pt" style:font-weight-asian="normal"/>
-  </style:style>
-  <style:style style:name="T11" style:family="text">
-   <style:text-properties fo:color="#fb0087" style:text-outline="false" style:font-name="HelveticaNeue-Bold" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-weight="bold" style:letter-kerning="false" style:font-size-asian="14pt" style:font-weight-asian="bold"/>
-  </style:style>
-  <style:page-layout style:name="pm1">
-   <style:page-layout-properties fo:page-width="8.2681in" fo:page-height="11.6929in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1in" fo:margin-bottom="1in" fo:margin-left="1in" fo:margin-right="1in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="24620" style:layout-grid-base-height="0.0693in" style:layout-grid-ruby-height="0in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:layout-grid-base-width="0.1665in" style:layout-grid-snap-to="true" style:footnote-max-height="0in">
-    <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
-   </style:page-layout-properties>
-   <style:header-style/>
-   <style:footer-style/>
-  </style:page-layout>
- </office:automatic-styles>
- <office:master-styles>
-  <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
- </office:master-styles>
- <office:body>
-  <office:text text:use-soft-page-breaks="true">
-   <text:sequence-decls>
-    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
-    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
-    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
-    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
-    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
-   </text:sequence-decls>
-   <text:p text:style-name="P1"><text:span text:style-name="T1">&lt;!DOCTYPE html&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;html lang=&quot;ko&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;head&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;title&gt;</text:span><text:span text:style-name="T3">플로렌스라이브</text:span><text:span text:style-name="T5">&lt;/title&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta name=&quot;description&quot; content=&quot;</text:span><text:span text:style-name="T7">가장</text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T7">쉽게</text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T7">라이브커머스</text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T7">시작하기</text:span><text:span text:style-name="T5">, </text:span><text:span text:style-name="T7">플로렌스라이브</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta property=&quot;og:type&quot; content=&quot;website&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta property=&quot;og:title&quot; content=&quot;</text:span><text:span text:style-name="T7">플로렌스라이브</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta property=&quot;og:description&quot; content=&quot;</text:span><text:span text:style-name="T7">가장</text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T7">쉬운</text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T7">라이브커머스</text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T7">시작하기</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta property=&quot;og:image&quot; content=&quot;https://florencelive.me/images/ogimage.png&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta property=&quot;og:url&quot; content=&quot;https://florencelive.me&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;link rel=&quot;canonical&quot; href=&quot;</text:span><text:span text:style-name="T9">https://florencelive.me/index.html</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta charset=&quot;UTF-8&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;link rel=&quot;stylesheet&quot; href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/css/reset.css</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;link rel=&quot;stylesheet&quot; href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/css/slick.css</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;link rel=&quot;stylesheet&quot; href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/css/common.css</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;link rel=&quot;stylesheet&quot; href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/css/layout.css</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;link rel=&quot;stylesheet&quot; href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/css/main.css</text:span><text:span text:style-name="T5">&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;script src=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/js/jquery-1.11.2.min.js</text:span><text:span text:style-name="T5">&quot;&gt;&lt;/script&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T5">&lt;script src=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/js/jquery-ui.min.js</text:span><text:span text:style-name="T5">&quot;&gt;&lt;/script&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;script src=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/js/slick.js</text:span><text:span text:style-name="T5">&quot;&gt;&lt;/script&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;script src=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/js/common.js</text:span><text:span text:style-name="T5">&quot;&gt;&lt;/script&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;/head&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;body&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;header&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;div class=&quot;inner&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;a href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/index.html</text:span><text:span text:style-name="T5">&quot; class=&quot;logo&quot;&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/images/logo-florencelive.png</text:span><text:span text:style-name="T5">&quot; alt=&quot;Florence LIVE&quot;&gt;&lt;/a&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;a href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/#menu1</text:span><text:span text:style-name="T5">&quot; class=&quot;menu&quot;&gt;</text:span><text:span text:style-name="T3">비용안내</text:span><text:span text:style-name="T5">&lt;/a&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;a href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/#menu2</text:span><text:span text:style-name="T5">&quot; class=&quot;menu&quot;&gt;</text:span><text:span text:style-name="T3">문의하기</text:span><text:span text:style-name="T5">&lt;/a&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;div class=&quot;right&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;a href=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/sub1.html</text:span><text:span text:style-name="T5">&quot; class=&quot;menu&quot;&gt;</text:span><text:span text:style-name="T3">쇼호스트</text:span><text:span text:style-name="T1"> </text:span><text:span text:style-name="T3">등록하기</text:span><text:span text:style-name="T5">&lt;/a&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;a href=&quot;</text:span><text:span text:style-name="T9">http://pf.kakao.com/_jVHJs/chat</text:span><text:span text:style-name="T5">&quot; target=&quot;_blank&quot; title=&quot;</text:span><text:span text:style-name="T7">새창열림</text:span><text:span text:style-name="T5">&quot; target=&quot;_blank&quot; class=&quot;kakao&quot;&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/images/ic-kakaochannel.png</text:span><text:span text:style-name="T5">&quot; alt=&quot;ch&quot;&gt;</text:span><text:span text:style-name="T3">문의하기</text:span><text:span text:style-name="T5">&lt;/a&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;/header&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;main&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;div class=&quot;inner banner&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;video src=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/images/vidio/video_4.mp4</text:span><text:span text:style-name="T5">&quot; autoplay muted loop playsinline&gt;&lt;/video&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;div class=&quot;left&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T5">&lt;img src=&quot;</text:span><text:span text:style-name="T9">http://www.florencelive.me/images/main/logo-florencelive.png</text:span><text:span text:style-name="T5">&quot; alt=&quot;Florence LIVE&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T11">&lt;h1&gt;</text:span><text:span text:style-name="T4">라이브커머스</text:span><text:span text:style-name="T2">,</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span><text:span text:style-name="T4">지금</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">시작해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">보세요</text:span><text:span text:style-name="T11">&lt;/h1&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">장비가</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">없어도</text:span><text:span text:style-name="T2">, </text:span><text:span text:style-name="T4">장소가</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">없어도</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">괜찮아요</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span><text:span text:style-name="T4">플로렌스라이브가</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">대신</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">팔아드려요</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;a href=&quot;</text:span><text:span text:style-name="T10">http://pf.kakao.com/_jVHJs/chat</text:span><text:span text:style-name="T6">&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/ic-kakaochannel.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;ch&quot;&gt;</text:span><text:span text:style-name="T4">카카오톡</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">문의하기</text:span><text:span text:style-name="T6">&lt;/a&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;logo_all&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;ul class=&quot;inner fclear&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/logo-florencemarket.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;market Florencs&quot;&gt;&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/logo-navershopping.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;N</text:span><text:span text:style-name="T8">쇼핑</text:span><text:span text:style-name="T6">LIVE&quot;&gt;&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/logo-kakaoshopping.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;</text:span><text:span text:style-name="T8">카카오쇼핑</text:span><text:span text:style-name="T6">LIVE&quot;&gt;&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/logo-11.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;LIVE11&quot;&gt;&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/logo-coupanglive.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;coupang LIVE&quot;&gt;&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/ul&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;inner&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;area1&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;tit&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h1&gt;</text:span><text:span text:style-name="T4">판매는</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">저희가</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">할게요</text:span><text:span text:style-name="T2">, </text:span><text:span text:style-name="T4">배송만</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">맡아주세요</text:span><text:span text:style-name="T11">&lt;/h1&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h2&gt;</text:span><text:span text:style-name="T4">플로렌스라이브의</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">쇼호스트들이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">상품을</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">대신</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">판매합니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span><text:span text:style-name="T4">판매자님은</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">상품을</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">배송만</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">해주시면</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">됩니다</text:span><text:span text:style-name="T2">. </text:span><text:span text:style-name="T11">&lt;/h2&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T6">&lt;ul class=&quot;fclear&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-1.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot;&gt;&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">자체</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">스튜디오</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;span&gt;</text:span><text:span text:style-name="T4">자체</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">스튜디오를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">통해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">비용</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">부담</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">없이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">안정적으로</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">방송</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">운영이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">가능합니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-2.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot;&gt;&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">검증된</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">쇼호스트</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;span&gt;</text:span><text:span text:style-name="T4">라이브</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">커머스에</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">특화된</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">전문</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">쇼호스트와</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">연계되어</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">있어</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T6">&lt;br class=&quot;mo&quot;&gt;</text:span><text:span text:style-name="T4">방송</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">컨셉에</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">맞게</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">방송을</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">진행합니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div&gt;&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-3.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot;&gt;&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">라이브</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">전문</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">제작팀</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;span&gt;</text:span><text:span text:style-name="T4">시청자들의</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">흥미를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">끄는</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">라이브를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">위한</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">전문작가진과</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T6">&lt;br class=&quot;mo&quot;&gt;</text:span><text:span text:style-name="T4">콘텐츠</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">전문</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">제작팀이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">풍부한</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">방송을</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">연출해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">나갑니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/ul&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;area2&quot; id=&quot;menu1&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;tit&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h1&gt;</text:span><text:span text:style-name="T4">모든</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">과정</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T6">&lt;em class=&quot;color_red&quot;&gt;</text:span><text:span text:style-name="T4">무료</text:span><text:span text:style-name="T6">&lt;/em&gt;</text:span><text:span text:style-name="T2">, </text:span><text:span text:style-name="T6">&lt;br class=&quot;mo&quot;&gt;</text:span><text:span text:style-name="T4">팔리는</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">만큼만</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">받습니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T11">&lt;/h1&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T11">&lt;h2&gt;</text:span><text:span text:style-name="T4">라이브커머스</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">방송</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">비용을</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">따로</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">받지</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">않습니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T4">모든</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">과정은</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">최종</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">방송이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">끝난</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">후</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">매출액</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">만큼의</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T6">&lt;br class=&quot;mo&quot;&gt;</text:span><text:span text:style-name="T4">수수료만</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">내시면</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">됩니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T11">&lt;/h2&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-circle.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot; class=&quot;pc&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-circle-m.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot; class=&quot;mo&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;area3&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;tit&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h1&gt;</text:span><text:span text:style-name="T4">샘플</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">상품만</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">보내주세요</text:span><text:span text:style-name="T11">&lt;/h1&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h2&gt;</text:span><text:span text:style-name="T4">촬영에</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">사용할</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">상품만</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">플로렌스라이브에</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">보내주세요</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T4">기획과</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">대본</text:span><text:span text:style-name="T2">, </text:span><text:span text:style-name="T4">진행은</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">모두</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">플로렌스라이브에서</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">준비합니다</text:span><text:span text:style-name="T2">. </text:span><text:span text:style-name="T11">&lt;/h2&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;up_wrap&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;up&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-example-5.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-example-2.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;up up2&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-example-6.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-example-3.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T6">&lt;div class=&quot;txt&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">가장</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">쉬운</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">라이브커머스</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">대행</text:span><text:span text:style-name="T2">,</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T4">플로렌스라이브</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;span&gt;</text:span><text:span text:style-name="T4">패션</text:span><text:span text:style-name="T2">, </text:span><text:span text:style-name="T4">농수산물</text:span><text:span text:style-name="T2">, </text:span><text:span text:style-name="T4">전자기기</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">등</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">온라인</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">판매가</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">가능한</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">상품이라면</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">모두</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">가능합니다</text:span><text:span text:style-name="T2">. </text:span><text:span text:style-name="T4">상품만</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">보내주시면</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">플로렌스라이브가</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">기획부터</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">진행까지</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">전부</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">담당합니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;em&gt;</text:span><text:span text:style-name="T4">가구</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">등</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">부피가</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">너무</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">큰</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">상품은</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">진행이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">어려울</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">수</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">있습니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/em&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;area4&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;tit&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h1&gt;</text:span><text:span text:style-name="T4">가장</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">합리적인</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">라이브커머스</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">대행</text:span><text:span text:style-name="T11">&lt;/h1&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h2&gt;</text:span><text:span text:style-name="T4">플로렌스라이브는</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">판매한</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">만큼</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">수수료를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">받기</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">때문에</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T6">&lt;br class=&quot;mo&quot;&gt;</text:span><text:span text:style-name="T4">가장</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">합리적입니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T4">쇼호스트는</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">매출만큼</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">수익을</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T6">&lt;br class=&quot;mo&quot;&gt;</text:span><text:span text:style-name="T4">정산받기</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">때문에</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">누구보다</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">열정적으로</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">상품을</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">판매합니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T11">&lt;/h2&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;scr&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;ul class=&quot;fclear&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;video src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/vidio/video_1.mp4</text:span><text:span text:style-name="T6">&quot; autoplay muted loop playsinline&gt;&lt;/video&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">내</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">손안의</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">오로라</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">홀로그램</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">오로라</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">글라스</text:span><text:span text:style-name="T2"> 2P</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T6">&lt;span&gt;</text:span><text:span text:style-name="T4">빛을</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">받으면</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">받을수록</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">더욱</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">영롱하게</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">빛나는</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">오로라빛</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">글라스를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">지금</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">만나보세요</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;video src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/vidio/video_2.mp4</text:span><text:span text:style-name="T6">&quot; autoplay muted loop playsinline&gt;&lt;/video&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">제네바</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">블루투스</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">스피커</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;span&gt;</text:span><text:span text:style-name="T4">단순해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">보이지만</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">제네바의</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">철학이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">담긴</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">블루투스</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">스피커를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">지금</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">만나보세요</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;video src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/vidio/video_3.mp4</text:span><text:span text:style-name="T6">&quot; autoplay muted loop playsinline&gt;&lt;/video&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">내츄럴</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">라탄</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">바구니</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">수납함</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;span&gt;</text:span><text:span text:style-name="T4">어느곳에나</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">두어도</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">어울리는</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">라탄</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">감성</text:span><text:span text:style-name="T2">, </text:span><text:span text:style-name="T4">내츄럴</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">라탄</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">바구니를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">소개합니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/li&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/ul&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;kakao_q&quot; id=&quot;menu2&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;inner&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;tit&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h1&gt;</text:span><text:span text:style-name="T4">문의하기</text:span><text:span text:style-name="T11">&lt;/h1&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h2&gt;</text:span><text:span text:style-name="T4">플로렌스라이브에</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">대해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">궁금하신</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">점이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">있으신가요</text:span><text:span text:style-name="T2">?</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T4">카카오톡</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">플러스친구를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">통해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">남겨주시면</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">빠르게</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">안내해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">드리겠습니다</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T11">&lt;/h2&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;wrap&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/ic-kakaochannel.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;ch&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p&gt;</text:span><text:span text:style-name="T4">플로렌스라이브</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;a href=&quot;</text:span><text:span text:style-name="T10">http://pf.kakao.com/_jVHJs/chat</text:span><text:span text:style-name="T6">&quot; target=&quot;_blank&quot;&gt;</text:span><text:span text:style-name="T4">카카오톡</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">문의하기</text:span><text:span text:style-name="T6">&lt;/a&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;inner start fclear&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;left&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/main/img-1.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;right&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;span class=&quot;color_red&quot;&gt;</text:span><text:span text:style-name="T4">쇼호스트</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">모집</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;tit&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h1&gt;</text:span><text:span text:style-name="T4">라이브커머스</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">쇼호스트</text:span><text:span text:style-name="T2">,</text:span><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T4">플로렌스라이브에서</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">시작해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">보세요</text:span><text:span text:style-name="T11">&lt;/h1&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T11">&lt;h2&gt;</text:span><text:span text:style-name="T4">상품</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">판매에</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">자신이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">있으신가요</text:span><text:span text:style-name="T2">? </text:span><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T4">주체할</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">수</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">없는</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">끼와</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">열정이</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">있다면</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">누구나</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">시작할</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">수</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">있습니다</text:span><text:span text:style-name="T2">. </text:span><text:span text:style-name="T6">&lt;br&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T4">플로렌스라이브에서</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">쇼호스트를</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">도전해</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">보세요</text:span><text:span text:style-name="T2">.</text:span><text:span text:style-name="T11">&lt;/h2&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:soft-page-break/><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;a href=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/sub1.html</text:span><text:span text:style-name="T6">&quot;&gt;</text:span><text:span text:style-name="T4">쇼호스트</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">더</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T4">알아보기</text:span><text:span text:style-name="T6">&lt;/a&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/main&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;footer&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div class=&quot;inner&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;img src=&quot;</text:span><text:span text:style-name="T10">http://www.florencelive.me/images/logo-florencelive.png</text:span><text:span text:style-name="T6">&quot; alt=&quot;Florence LIVE&quot;&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;span&gt;&lt;em&gt;</text:span><text:span text:style-name="T4">제품문의</text:span><text:span text:style-name="T6">&lt;/em&gt;</text:span><text:span text:style-name="T2"> florencelab@naver.com</text:span><text:span text:style-name="T6">&lt;/span&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;p class=&quot;right&quot;&gt;</text:span><text:span text:style-name="T2">Copyright © Florencelab. All Rights Reserved.</text:span><text:span text:style-name="T6">&lt;/p&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/div&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/footer&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/body&gt;</text:span></text:p>
-   <text:p text:style-name="Standard"><text:span text:style-name="T6">&lt;/html&gt;</text:span></text:p>
-  </office:text>
- </office:body>
-</office:document>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>플로렌스라이브</title>
+<meta name="description" content="가장 쉽게 라이브커머스 시작하기, 플로렌스라이브">
+<meta property="og:type" content="website">
+<meta property="og:title" content="플로렌스라이브">
+<meta property="og:description" content="가장 쉬운 라이브커머스 시작하기">
+<meta property="og:image" content="https://florencelive.me/images/ogimage.png">
+<meta property="og:url" content="https://florencelive.me">
+<link rel="canonical" href="https://florencelive.me/index.html">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://www.florencelive.me/css/reset.css">
+<link rel="stylesheet" href="http://www.florencelive.me/css/slick.css">
+<link rel="stylesheet" href="http://www.florencelive.me/css/common.css">
+<link rel="stylesheet" href="http://www.florencelive.me/css/layout.css">
+<link rel="stylesheet" href="http://www.florencelive.me/css/main.css">
+<script src="http://www.florencelive.me/js/jquery-1.11.2.min.js"></script>
+<script src="http://www.florencelive.me/js/jquery-ui.min.js"></script>
+<script src="http://www.florencelive.me/js/slick.js"></script>
+<script src="http://www.florencelive.me/js/common.js"></script>
+</head>
+<body>
+<header>
+<div class="inner">
+<a href="http://www.florencelive.me/index.html" class="logo"><img src="http://www.florencelive.me/images/logo-florencelive.png" alt="Florence LIVE"></a>
+<a href="http://www.florencelive.me/#menu1" class="menu">비용안내</a>
+<a href="http://www.florencelive.me/#menu2" class="menu">문의하기</a>
+<div class="right">
+<a href="http://www.florencelive.me/sub1.html" class="menu">쇼호스트 등록하기</a>
+<a href="http://pf.kakao.com/_jVHJs/chat" target="_blank" title="새창열림" target="_blank" class="kakao"><img src="http://www.florencelive.me/images/ic-kakaochannel.png" alt="ch">문의하기</a>
+</div>
+</div>
+</header>
+<main>
+<div class="inner banner">
+<video src="http://www.florencelive.me/images/vidio/video_4.mp4" autoplay muted loop playsinline></video>
+<div class="left">
+<img src="http://www.florencelive.me/images/main/logo-florencelive.png" alt="Florence LIVE">
+<h1>라이브커머스,<br>지금 시작해 보세요</h1>
+<p>장비가 없어도, 장소가 없어도 괜찮아요.<br>플로렌스라이브가 대신 팔아드려요.</p>
+<a href="http://pf.kakao.com/_jVHJs/chat" target="_blank"><img src="http://www.florencelive.me/images/main/ic-kakaochannel.png" alt="ch">카카오톡 문의하기</a>
+</div>
+</div>
+<div class="logo_all">
+<ul class="inner fclear">
+<li><img src="http://www.florencelive.me/images/main/logo-florencemarket.png" alt="market Florencs"></li>
+<li><img src="http://www.florencelive.me/images/main/logo-navershopping.png" alt="N쇼핑LIVE"></li>
+<li><img src="http://www.florencelive.me/images/main/logo-kakaoshopping.png" alt="카카오쇼핑LIVE"></li>
+<br>
+<li><img src="http://www.florencelive.me/images/main/logo-11.png" alt="LIVE11"></li>
+<li><img src="http://www.florencelive.me/images/main/logo-coupanglive.png" alt="coupang LIVE"></li>
+</ul>
+</div>
+<div class="inner">
+<div class="area1">
+<div class="tit">
+<h1>판매는 저희가 할게요, 배송만 맡아주세요</h1>
+<h2>플로렌스라이브의 쇼호스트들이 상품을 대신 판매합니다.<br>판매자님은 상품을 배송만 해주시면 됩니다. </h2>
+</div>
+<ul class="fclear">
+<li>
+<div><img src="http://www.florencelive.me/images/main/img-1.png" alt=""></div>
+<p>자체 스튜디오</p>
+<span>자체 스튜디오를 통해 비용 부담 없이 안정적으로 방송 운영이 가능합니다.</span>
+</li>
+<li>
+<div><img src="http://www.florencelive.me/images/main/img-2.png" alt=""></div>
+<p>검증된 쇼호스트</p>
+<span>라이브 커머스에 특화된 전문 쇼호스트와 연계되어 있어 <br class="mo">방송 컨셉에 맞게 방송을 진행합니다.</span>
+</li>
+<li>
+<div><img src="http://www.florencelive.me/images/main/img-3.png" alt=""></div>
+<p>라이브 전문 제작팀</p>
+<span>시청자들의 흥미를 끄는 라이브를 위한 전문작가진과 <br class="mo">콘텐츠 전문 제작팀이 풍부한 방송을 연출해 나갑니다.</span>
+</li>
+</ul>
+</div>
+<div class="area2" id="menu1">
+<div class="tit">
+<h1>모든 과정 <em class="color_red">무료</em>, <br class="mo">팔리는 만큼만 받습니다.</h1>
+<h2>라이브커머스 방송 비용을 따로 받지 않습니다.<br>
+모든 과정은 최종 방송이 끝난 후 매출액 만큼의 <br class="mo">수수료만 내시면 됩니다.</h2>
+</div>
+<img src="http://www.florencelive.me/images/main/img-circle.png" alt="" class="pc">
+<img src="http://www.florencelive.me/images/main/img-circle-m.png" alt="" class="mo">
+</div>
+<div class="area3">
+<div class="tit">
+<h1>샘플 상품만 보내주세요</h1>
+<h2>촬영에 사용할 상품만 플로렌스라이브에 보내주세요.<br>
+기획과 대본, 진행은 모두 플로렌스라이브에서 준비합니다. </h2>
+</div>
+<div class="up_wrap">
+<div class="up">
+<img src="http://www.florencelive.me/images/main/img-example-5.png" alt="">
+<img src="http://www.florencelive.me/images/main/img-example-2.png" alt="">
+</div>
+<div class="up up2">
+<img src="http://www.florencelive.me/images/main/img-example-6.png" alt="">
+<img src="http://www.florencelive.me/images/main/img-example-3.png" alt="">
+</div>
+<div class="txt">
+<div>
+<p>가장 쉬운 라이브커머스 대행,<br>
+플로렌스라이브</p>
+<span>패션, 농수산물, 전자기기 등 온라인 판매가 가능한 상품이라면 모두 가능합니다. 상품만 보내주시면 플로렌스라이브가 기획부터 진행까지 전부 담당합니다.</span>
+<em>가구 등 부피가 너무 큰 상품은 진행이 어려울 수 있습니다.</em>
+</div>
+</div>
+</div>
+</div>
+<div class="area4">
+<div class="tit">
+<h1>가장 합리적인 라이브커머스 대행</h1>
+<h2>플로렌스라이브는 판매한 만큼 수수료를 받기 때문에 <br class="mo">가장 합리적입니다.<br>
+쇼호스트는 매출만큼 수익을 <br class="mo">정산받기 때문에 누구보다 열정적으로 상품을 판매합니다.</h2>
+</div>
+<div class="scr">
+<ul class="fclear">
+<li>
+<video src="http://www.florencelive.me/images/vidio/video_1.mp4" autoplay muted loop playsinline></video>
+<p>내 손안의 오로라 홀로그램 오로라 글라스 2P</p>
+<span>빛을 받으면 받을수록 더욱 영롱하게 빛나는 오로라빛 글라스를 지금 만나보세요.</span>
+</li>
+<li>
+<video src="http://www.florencelive.me/images/vidio/video_2.mp4" autoplay muted loop playsinline></video>
+<p>제네바 블루투스 스피커</p>
+<span>단순해 보이지만 제네바의 철학이 담긴 블루투스 스피커를 지금 만나보세요.</span>
+</li>
+<li>
+<video src="http://www.florencelive.me/images/vidio/video_3.mp4" autoplay muted loop playsinline></video>
+<p>내츄럴 라탄 바구니 수납함</p>
+<span>어느곳에나 두어도 어울리는 라탄 감성, 내츄럴 라탄 바구니를 소개합니다.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="kakao_q" id="menu2">
+<div class="inner">
+<div class="tit">
+<h1>문의하기</h1>
+<h2>플로렌스라이브에 대해 궁금하신 점이 있으신가요?<br>
+카카오톡 플러스친구를 통해 남겨주시면 빠르게 안내해 드리겠습니다.</h2>
+</div>
+<div class="wrap">
+<img src="http://www.florencelive.me/images/main/ic-kakaochannel.png" alt="ch">
+<p>플로렌스라이브</p>
+<a href="http://pf.kakao.com/_jVHJs/chat" target="_blank">카카오톡 문의하기</a>
+</div>
+</div>
+</div>
+<div class="inner start fclear">
+<div class="left">
+<img src="http://www.florencelive.me/images/main/img-1.png" alt="">
+</div>
+<div class="right">
+<span class="color_red">쇼호스트 모집</span>
+<div class="tit">
+<h1>라이브커머스 쇼호스트,<br>
+플로렌스라이브에서 시작해 보세요</h1>
+<h2>상품 판매에 자신이 있으신가요? <br>
+주체할 수 없는 끼와 열정이 있다면 누구나 시작할 수 있습니다. <br>
+플로렌스라이브에서 쇼호스트를 도전해 보세요.</h2>
+</div>
+<a href="http://www.florencelive.me/sub1.html">쇼호스트 더 알아보기</a>
+</div>
+</div>
+</main>
+<footer>
+<div class="inner">
+<img src="http://www.florencelive.me/images/logo-florencelive.png" alt="Florence LIVE">
+<div>
+<span><em>제품문의</em> florencelab@naver.com</span>
+<p class="right">Copyright © Florencelab. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
